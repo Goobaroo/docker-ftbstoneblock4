@@ -2,15 +2,16 @@
 
 <!-- toc -->
 
-- [Description](#description)
-- [Requirements](#requirements)
-- [Options](#options)
-  * [Adding Minecraft Operators](#adding-minecraft-operators)
-- [Troubleshooting](#troubleshooting)
-  * [Accept the EULA](#accept-the-eula)
-  * [Permissions of Files](#permissions-of-files)
-  * [Resetting](#resetting)
-- [Source](#source)
+- [FTB StoneBlock 4 By FTB](#ftb-stoneblock-4-by-ftb)
+  - [Description](#description)
+  - [Requirements](#requirements)
+  - [Options](#options)
+    - [Adding Minecraft Operators](#adding-minecraft-operators)
+  - [Troubleshooting](#troubleshooting)
+    - [Accept the EULA](#accept-the-eula)
+    - [Permissions of Files](#permissions-of-files)
+    - [Resetting](#resetting)
+  - [Source](#source)
 
 <!-- tocstop -->
 
@@ -39,6 +40,7 @@ These environment variables can be set at run time to override their defaults.
 * JVM_OPTS "-Xms5120m -Xmx6144m"
 * MOTD "FTB StoneBlock 4 Server Powered by Docker"
 * LEVEL world
+* VER 100143 (The FTB server file ID.  Change this to force a specific modpack version.)
 
 ### Adding Minecraft Operators
 
