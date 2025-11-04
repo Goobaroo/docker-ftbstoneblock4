@@ -36,7 +36,7 @@ As the end user, you are repsonsible for accepting the EULA from Mojang to run t
 
 These environment variables can be set at run time to override their defaults.
 
-* JVM_OPTS "-Xms5120m -Xmx6144m"
+* JVM_OPTS "-Xms6144m -Xmx8192m"
 * MOTD "FTB StoneBlock 4 Server Powered by Docker"
 * LEVEL world
 
