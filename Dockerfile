@@ -10,7 +10,7 @@ LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://FTB-StoneBlock-4:25565
 
 
-RUN apt-get update && apt-get install -y curl && \
+RUN apt-get update && apt-get install -y curl jq && \
  adduser --uid 99 --gid 100 --home /data --disabled-password minecraft
 
 COPY launch.sh /launch.sh
