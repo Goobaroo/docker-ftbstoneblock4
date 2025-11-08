@@ -8,7 +8,8 @@ if ! [[ -w "/data" ]]; then
 fi
 
 ID=130
-VER=100148
+VER=$(curl -s "https://api.feed-the-beast.com/v1/modpacks/public/modpack/${ID}/" | jq '.versions[-1].id')
+
 
 cd /data
 
