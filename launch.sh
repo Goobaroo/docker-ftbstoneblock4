@@ -53,6 +53,5 @@ else
   rm -f forge-*-installer.jar
   FORGE_JAR=$(ls forge-*.jar)
 
-  curl -Lo log4j2_112-116.xml https://launcher.mojang.com/v1/objects/02937d122c86ce73319ef9975b58896fc1b491d1/log4j2_112-116.xml
-  java -server -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -Dfml.queryResult=confirm -Dlog4j.configurationFile=log4j2_112-116.xml $JVM_OPTS -jar $FORGE_JAR nogui
+  java -server -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -Dfml.queryResult=confirm $JVM_OPTS -jar $FORGE_JAR nogui
 fi
