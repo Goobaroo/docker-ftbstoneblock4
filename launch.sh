@@ -8,7 +8,7 @@ if ! [[ -w "/data" ]]; then
 fi
 
 ID=130
-VER=100262
+VER=100272
 
 cd /data
 
